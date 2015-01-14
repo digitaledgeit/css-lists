@@ -2,6 +2,6 @@
 	"name": "lists",
 	"description": "Generic structural list styles",
 	"main": "index.css",
-	"scripts": ["index.css"],
+	"styles": ["index.css"],
 	"license": "MIT"
 }

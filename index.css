@@ -11,9 +11,10 @@
 	font-size: 0;
 }
 
-.list--horizontal .list__item {
+.list--horizontal > .list__item {
 	display: inline-block;
 	font-size: 1rem;
+	vertical-align: top;
 }
 
 /** justified list **/

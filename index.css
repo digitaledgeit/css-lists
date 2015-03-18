@@ -2,7 +2,10 @@
 .list {
 	margin: 0;
 	padding: 0;
+	list-style-type: none;
 }
+
+/** horizontal list **/
 
 .list--horizontal {
 	font-size: 0;
@@ -11,4 +14,24 @@
 .list--horizontal .list__item {
 	display: inline-block;
 	font-size: 1rem;
+}
+
+/** justified list **/
+
+.list--justified {
+	text-align: justify;
+	line-height: 0;
+}
+
+.list--justified .list__item {
+	display: inline-block;
+	line-height: normal;
+	vertical-align: top;
+}
+
+.list--justified:after {
+	display: inline-block;
+	content: '';
+	width: 100%;
+	vertical-align: top;
 }

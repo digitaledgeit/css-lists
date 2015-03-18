@@ -23,12 +23,31 @@ Code:
     <ul class="list list--horizontal">
         <li class="list__item"><a href="/">Home</a></li>
         <li class="list__item"><a href="http://www.google.com/">Google</a></li>
+        <li class="list__item"><a href="http://www.google.com/">Bing</a></li>
+        <li class="list__item"><a href="http://www.google.com/">Yahoo</a></li>
     </ul>
     
 Output:
 
-    Home Google
+    | HomeGoogleBingYahoo                               |
     
+### Horizontal list
+    
+Used for horizontal list structures e.g. horizontal navigation
+    
+Code:
+
+    <ul class="list list--justified">
+        <li class="list__item"><a href="/">Home</a></li>
+        <li class="list__item"><a href="http://www.google.com/">Google</a></li>
+        <li class="list__item"><a href="http://www.google.com/">Bing</a></li>
+        <li class="list__item"><a href="http://www.google.com/">Yahoo</a></li>
+    </ul>
+    
+Output:
+
+    | Home          Google          Bing          Yahoo |
+
 ## License
 
 The MIT License (MIT)

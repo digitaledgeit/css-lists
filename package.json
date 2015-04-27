@@ -1,0 +1,8 @@
+{
+  "name": "lists",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Generic structural list styles",
+  "main": "index.css",
+  "license": "MIT"
+}
